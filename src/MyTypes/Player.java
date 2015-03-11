@@ -1,11 +1,12 @@
 package MyTypes;
 
-public class Player extends Enemy{
+
+public class Player{
 
     private int choice;
-    public int setChoice(int sc){
-        choice = sc;
-        return sc;
+
+    public void setChoice(int choice){
+        this.choice = choice;
     }
 
     public int getChoice(){
